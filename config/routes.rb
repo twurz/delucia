@@ -1,6 +1,6 @@
 Delucia::Application.routes.draw do
-  resources :customers
-  resources :trainer
-  root to: "home#index"
 
+  resources :trainer do
+    resources :customers, only: [:show, :edit, :update, :destroy]
+  root to: "application#index"
 end
