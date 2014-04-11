@@ -3,7 +3,7 @@ gem 'rails', '4.1.0'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec'
+  gem 'rspec-rails'
   gem 'erb2haml'
   gem 'factory_girl_rails'
   gem 'pry'
