@@ -6,5 +6,6 @@ describe Customer do
   it "is invalid without a name"
 
   it "is invalid without an email"
+
   it "is invalid without a phone number"
 end
